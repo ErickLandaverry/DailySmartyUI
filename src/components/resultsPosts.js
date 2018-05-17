@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
@@ -8,7 +7,7 @@ class ResultsPosts extends Component {
 
     renderPosts() {
         const posts = this.props.posts.map((post, index) => {
-            return <Post key={index} {...post}/>
+            return <Post type="result" key={index} {...post}/>
         })
         return posts;
     }
