@@ -24,6 +24,7 @@ ul {
 
 $color-gray-one: #666666;
 $color-gray-two: #B3B3B3;
+$color-gray-three: #D8D8D8;
 $color-blue-one: #0079FF;
 
 @import './mixins';
@@ -32,4 +33,3 @@ $color-blue-one: #0079FF;
 @import './post';
 @import './home';
 @import './results';
-@import './mixins';
